@@ -1,43 +1,20 @@
 # FFmpeg-VideoConversion-MP4
-This application enables users to upload multiple videos at once and converts each to MP4 format. Users receive an email when the conversion starts and another upon completion. The process ensures timely notifications for each video conversion.
 
 ## 📌 Introduction
 
-<a href="https://awesome.re" target="_blank" rel="noopener noreferrer">
-  <img src="https://awesome.re/badge.svg" alt="Awesome" />
-</a>
-
-All in one place where you can find all the resources and details of ambassador/fellowship, open source events, web dev sites, js toolkits  etc. that are available across different sites. Consider this repository as your personal space to find or add any new resource that can make life easier for the community.
-<div align="center">
-<!-- <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
-<img src="https://forthebadge.com/images/badges/uses-brains.svg" />
-<img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" /> -->
-   <br>
-<img src="https://img.shields.io/github/repo-size/swapnilsparsh/DevEmpire" />
-	<img src="https://img.shields.io/github/issues/swapnilsparsh/DevEmpire" />
-	<img src="https://img.shields.io/github/issues-raw/swapnilsparsh/DevEmpire" />
-	<img src="https://img.shields.io/github/issues-pr/swapnilsparsh/DevEmpire" />
-	<img src="https://img.shields.io/github/issues-closed-raw/swapnilsparsh/DevEmpire" />
-	<img src="https://img.shields.io/github/issues-pr-closed-raw/swapnilsparsh/DevEmpire" />
-	<img src="https://img.shields.io/github/license/swapnilsparsh/DevEmpire" />
-	<img src="https://img.shields.io/github/forks/swapnilsparsh/DevEmpire" />
-	<img src="https://img.shields.io/github/stars/swapnilsparsh/DevEmpire" />
-	<img src="https://img.shields.io/github/contributors/swapnilsparsh/DevEmpire" />
-	<img src="https://img.shields.io/github/last-commit/swapnilsparsh/DevEmpire" />
-	</div>
+This application enables users to upload multiple videos at once and converts each to MP4 format. Users receive an email when the conversion starts and another upon completion. The process ensures timely notifications for each video conversion.
 	
-	
-##  🚀 View Live Demo
-<img src="https://img.shields.io/badge/website-up-greene" />
-<pre><center><a href="https://devempire.netlify.app/"><b>devempire.netlify.app</b></a></center></pre>
-
 ## 👨‍💻 Tech Stack
-<a href="https://nextjs.org/docs" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="NextJS" />
+<a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
 </a>
 
-<a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="SASS" />
+<a href="https://ffmpeg.org/" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
+</a>
+
+<a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
 </a>
 
 ## 🛠️ Installation Steps
@@ -46,22 +23,46 @@ Star and Fork the Repo 🌟 and this will keep us motivated.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/swapnilsparsh/DevEmpire.git
+https://github.com/saurabhsinngh/FFmpeg-VideoConversion-MP4.git
 ```
 
 2. Change the working directory
 
 ```bash
-cd DevEmpire
+cd FFmpeg-VideoConversion-MP4
 ```
 
-3. Install dependencies
+3. For backend
+
+```bash
+cd backend
+```
+
+4. Install dependencies
 
 ```bash
 npm install
 ```
 
-4. Run the app
+5. Run the backend application
+
+```bash
+npm run dev
+```
+
+6. For frontend
+
+```bash
+cd frontend
+```
+
+7. Install dependencies
+
+```bash
+npm install
+```
+
+8. Run the frontend application
 
 ```bash
 npm run dev
